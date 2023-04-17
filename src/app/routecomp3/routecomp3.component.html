@@ -1,0 +1,46 @@
+<!-- <table >
+    <tr>
+        <th>Name</th>
+        <th>email</th>
+        <th>address</th>
+    </tr>
+   
+    <tr   *ngFor="let data of reqdata">
+       <div  *ngIf="data['id'] == reqid" >
+        <td >{{data[reqid].name}}</td>
+        <td>{{data[reqid].email}}</td>
+        <td>{{data[reqid].address["street"]}}</td>
+    </div>
+    </tr>
+</table> -->
+
+
+ <table >
+    <tr>
+        <th>Name</th>
+        <th>email</th>
+        <th>address</th>
+    </tr>
+   
+    <tr  >
+       
+        <td >{{reqdata[reqid].name}}</td>
+        <td>{{reqdata[reqid].email}}</td>
+        <td>{{reqdata[reqid].address["street"]}}</td>
+   
+    </tr>
+</table>
+
+
+
+
+<!-- <div *ngFor="let data of reqdata">
+    <div *ngIf="data['id'] == reqid">
+        <h3>Name:{{data.name}}</h3>
+        <h3>Email:{{data.email}}</h3>
+        <h3>Address:{{data.address["street"]}}</h3>
+        <h3>Extract id:{{data.id}}</h3>
+    </div>
+</div>  -->
+
+

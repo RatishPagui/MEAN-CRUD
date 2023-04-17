@@ -1,0 +1,22 @@
+<form [formGroup]="emp2" (ngSubmit)="onUpdateemployee()">
+    <h2>Employee Data</h2>
+    <div>
+        <input type="text" formControlName="Name1" placeholder="Enter Name">
+    </div>
+    <div>
+        <input type="number" formControlName="Age1" placeholder="Enter Age">
+    </div>
+    <div>
+        <input type="text" formControlName="Dob1" placeholder="Enter DOB">
+    </div>
+    <div>
+        <input type="text" formControlName="Email1" placeholder="Enter Email">
+    </div>
+    <div>
+        <input type="text" formControlName="Contact1" placeholder="Enter Contact No.">
+    </div>
+    <div>
+        <input type="text" formControlName="Location1" placeholder="Enter Location">
+    </div><br>
+    <button type="submit">Update Employee</button>
+</form>

@@ -1,0 +1,20 @@
+.crudhead1{
+    height: 75px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    display: flex;
+}
+.ch1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: georgia;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

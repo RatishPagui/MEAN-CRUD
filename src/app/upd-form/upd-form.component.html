@@ -1,0 +1,20 @@
+<form [formGroup]="register" (ngSubmit)="onreg()">
+    <h2>Student data</h2>
+    <div>
+        <label>Name</label>
+        <input type="text" formControlName="Name1">
+    </div>
+    <div>
+        <label>Age</label>
+        <input type="number" formControlName="Age1">
+    </div>
+    <div>
+        <label>Contact</label>
+        <input type="number" formControlName="Contact1">
+    </div>
+    <div>
+        <label>Location</label>
+        <input type="text" formControlName="Location1">
+    </div>
+    <button type="submit">Add Data</button>
+</form>

@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+table{
+    border: 2px solid black;
+    width: 50%;
+}
+th,tr,td{
+    border: 2px solid black;
+    text-align: center;
+}

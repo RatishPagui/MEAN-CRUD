@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>email</th>
+        <th>address</th>
+    </tr>
+    <tr *ngFor="let data of anydata">
+        <td>{{data.name}}</td>
+        <td>{{data.email}}</td>
+        <td>{{data.address["street"]}}</td>
+    </tr>
+</table>
+
+
+
+<!-- <img src="comdata[0].image" alt=""> -->
+<div class="grid-container">
+    <div *ngFor="let item of comdata">
+        <img [src]="item.image"  width="150px">
+    </div>
+</div>
